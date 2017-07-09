@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "MdcLib-Skyprepare_Example.app"
-               BlueprintName = "MdcLib-Skyprepare_Example"
-               ReferencedContainer = "container:MdcLib-Skyprepare.xcodeproj">
+               BuildableName = "MdcLibSkyprepare_Example.app"
+               BlueprintName = "MdcLibSkyprepare_Example"
+               ReferencedContainer = "container:MdcLibSkyprepare.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "MdcLib-Skyprepare_Tests.xctest"
-               BlueprintName = "MdcLib-Skyprepare_Tests"
-               ReferencedContainer = "container:MdcLib-Skyprepare.xcodeproj">
+               BuildableName = "MdcLibSkyprepare_Tests.xctest"
+               BlueprintName = "MdcLibSkyprepare_Tests"
+               ReferencedContainer = "container:MdcLibSkyprepare.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "MdcLib-Skyprepare_Example.app"
-            BlueprintName = "MdcLib-Skyprepare_Example"
-            ReferencedContainer = "container:MdcLib-Skyprepare.xcodeproj">
+            BuildableName = "MdcLibSkyprepare_Example.app"
+            BlueprintName = "MdcLibSkyprepare_Example"
+            ReferencedContainer = "container:MdcLibSkyprepare.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "MdcLib-Skyprepare_Example.app"
-            BlueprintName = "MdcLib-Skyprepare_Example"
-            ReferencedContainer = "container:MdcLib-Skyprepare.xcodeproj">
+            BuildableName = "MdcLibSkyprepare_Example.app"
+            BlueprintName = "MdcLibSkyprepare_Example"
+            ReferencedContainer = "container:MdcLibSkyprepare.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "MdcLib-Skyprepare_Example.app"
-            BlueprintName = "MdcLib-Skyprepare_Example"
-            ReferencedContainer = "container:MdcLib-Skyprepare.xcodeproj">
+            BuildableName = "MdcLibSkyprepare_Example.app"
+            BlueprintName = "MdcLibSkyprepare_Example"
+            ReferencedContainer = "container:MdcLibSkyprepare.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -14,8 +14,7 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* MdcLib-SkyprepareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* MdcLib-SkyprepareAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* MdcLib-SkyprepareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* MdcLib-SkyprepareViewController.m */; };
+		6003F59E195388D20070C39A /* MdcLibSkyprepareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* MdcLibSkyprepareAppDelegate.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -24,6 +23,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9E1979D11F127C68004FAC82 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1979CC1F127C68004FAC82 /* ChatViewController.m */; };
+		9E1979D21F127C68004FAC82 /* MdcLibTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1979CE1F127C68004FAC82 /* MdcLibTestViewController.m */; };
+		9E1979D31F127C68004FAC82 /* PushHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1979D01F127C68004FAC82 /* PushHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,23 +39,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12574A3821B2494D8FCABA2B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5319BE5C6C89E138270678C1 /* MdcLib-Skyprepare.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "MdcLib-Skyprepare.podspec"; path = "../MdcLib-Skyprepare.podspec"; sourceTree = "<group>"; };
+		12574A3821B2494D8FCABA2B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5319BE5C6C89E138270678C1 /* MdcLib-Skyprepare.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "MdcLib-Skyprepare.podspec"; path = "../MdcLib-Skyprepare.podspec"; sourceTree = "<group>"; };
 		5AA66FC48512ABB9A97AA750 /* Pods-MdcLib-Skyprepare_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MdcLib-Skyprepare_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MdcLib-Skyprepare_Tests/Pods-MdcLib-Skyprepare_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* MdcLib-Skyprepare_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MdcLib-Skyprepare_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* MdcLibSkyprepare_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MdcLibSkyprepare_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* MdcLib-Skyprepare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MdcLib-Skyprepare-Info.plist"; sourceTree = "<group>"; };
+		6003F595195388D20070C39A /* MdcLibSkyprepare-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MdcLibSkyprepare-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* MdcLib-Skyprepare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MdcLib-Skyprepare-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* MdcLib-SkyprepareAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MdcLib-SkyprepareAppDelegate.h"; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* MdcLib-SkyprepareAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MdcLib-SkyprepareAppDelegate.m"; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* MdcLib-SkyprepareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MdcLib-SkyprepareViewController.h"; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* MdcLib-SkyprepareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MdcLib-SkyprepareViewController.m"; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* MdcLibSkyprepare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MdcLibSkyprepare-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* MdcLibSkyprepareAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MdcLibSkyprepareAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* MdcLibSkyprepareAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MdcLibSkyprepareAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* MdcLib-Skyprepare_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MdcLib-Skyprepare_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* MdcLibSkyprepare_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MdcLibSkyprepare_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -64,7 +64,13 @@
 		79F0688D30CF4DC440DF5318 /* Pods-MdcLib-Skyprepare_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MdcLib-Skyprepare_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MdcLib-Skyprepare_Tests/Pods-MdcLib-Skyprepare_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		821136C8BDF229579682BDD8 /* Pods_MdcLib_Skyprepare_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MdcLib_Skyprepare_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AE9F625F280AA900318971DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9E1979CB1F127C68004FAC82 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		9E1979CC1F127C68004FAC82 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		9E1979CD1F127C68004FAC82 /* MdcLibTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MdcLibTestViewController.h; sourceTree = "<group>"; };
+		9E1979CE1F127C68004FAC82 /* MdcLibTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MdcLibTestViewController.m; sourceTree = "<group>"; };
+		9E1979CF1F127C68004FAC82 /* PushHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushHandler.h; sourceTree = "<group>"; };
+		9E1979D01F127C68004FAC82 /* PushHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushHandler.m; sourceTree = "<group>"; };
+		AE9F625F280AA900318971DE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D08EF407EE88E07D6EBD82F8 /* Pods-MdcLib-Skyprepare_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MdcLib-Skyprepare_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MdcLib-Skyprepare_Example/Pods-MdcLib-Skyprepare_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F5B368F0B2C53527A7954BA7 /* Pods-MdcLib-Skyprepare_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MdcLib-Skyprepare_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MdcLib-Skyprepare_Example/Pods-MdcLib-Skyprepare_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,8 +116,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* MdcLib-Skyprepare_Example.app */,
-				6003F5AE195388D20070C39A /* MdcLib-Skyprepare_Tests.xctest */,
+				6003F58A195388D20070C39A /* MdcLibSkyprepare_Example.app */,
+				6003F5AE195388D20070C39A /* MdcLibSkyprepare_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,11 +138,15 @@
 		6003F593195388D20070C39A /* Example for MdcLib-Skyprepare */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* MdcLib-SkyprepareAppDelegate.h */,
-				6003F59D195388D20070C39A /* MdcLib-SkyprepareAppDelegate.m */,
+				9E1979CB1F127C68004FAC82 /* ChatViewController.h */,
+				9E1979CC1F127C68004FAC82 /* ChatViewController.m */,
+				9E1979CD1F127C68004FAC82 /* MdcLibTestViewController.h */,
+				9E1979CE1F127C68004FAC82 /* MdcLibTestViewController.m */,
+				9E1979CF1F127C68004FAC82 /* PushHandler.h */,
+				9E1979D01F127C68004FAC82 /* PushHandler.m */,
+				6003F59C195388D20070C39A /* MdcLibSkyprepareAppDelegate.h */,
+				6003F59D195388D20070C39A /* MdcLibSkyprepareAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* MdcLib-SkyprepareViewController.h */,
-				6003F5A6195388D20070C39A /* MdcLib-SkyprepareViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -148,10 +158,10 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* MdcLib-Skyprepare-Info.plist */,
+				6003F595195388D20070C39A /* MdcLibSkyprepare-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* MdcLib-Skyprepare-Prefix.pch */,
+				6003F59B195388D20070C39A /* MdcLibSkyprepare-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -199,9 +209,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* MdcLib-Skyprepare_Example */ = {
+		6003F589195388D20070C39A /* MdcLibSkyprepare_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "MdcLib-Skyprepare_Example" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "MdcLibSkyprepare_Example" */;
 			buildPhases = (
 				8363A11F0481F7A2D2E70E9C /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
@@ -214,14 +224,14 @@
 			);
 			dependencies = (
 			);
-			name = "MdcLib-Skyprepare_Example";
+			name = MdcLibSkyprepare_Example;
 			productName = "MdcLib-Skyprepare";
-			productReference = 6003F58A195388D20070C39A /* MdcLib-Skyprepare_Example.app */;
+			productReference = 6003F58A195388D20070C39A /* MdcLibSkyprepare_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* MdcLib-Skyprepare_Tests */ = {
+		6003F5AD195388D20070C39A /* MdcLibSkyprepare_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "MdcLib-Skyprepare_Tests" */;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "MdcLibSkyprepare_Tests" */;
 			buildPhases = (
 				BD0BC4343866178F50615522 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
@@ -235,9 +245,9 @@
 			dependencies = (
 				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
-			name = "MdcLib-Skyprepare_Tests";
+			name = MdcLibSkyprepare_Tests;
 			productName = "MdcLib-SkyprepareTests";
-			productReference = 6003F5AE195388D20070C39A /* MdcLib-Skyprepare_Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* MdcLibSkyprepare_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -255,7 +265,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "MdcLib-Skyprepare" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "MdcLibSkyprepare" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -268,8 +278,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* MdcLib-Skyprepare_Example */,
-				6003F5AD195388D20070C39A /* MdcLib-Skyprepare_Tests */,
+				6003F589195388D20070C39A /* MdcLibSkyprepare_Example */,
+				6003F5AD195388D20070C39A /* MdcLibSkyprepare_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -394,9 +404,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* MdcLib-SkyprepareAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* MdcLib-SkyprepareViewController.m in Sources */,
+				6003F59E195388D20070C39A /* MdcLibSkyprepareAppDelegate.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				9E1979D11F127C68004FAC82 /* ChatViewController.m in Sources */,
+				9E1979D31F127C68004FAC82 /* PushHandler.m in Sources */,
+				9E1979D21F127C68004FAC82 /* MdcLibTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +425,7 @@
 /* Begin PBXTargetDependency section */
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* MdcLib-Skyprepare_Example */;
+			target = 6003F589195388D20070C39A /* MdcLibSkyprepare_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -525,10 +537,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MdcLib-Skyprepare/MdcLib-Skyprepare-Prefix.pch";
-				INFOPLIST_FILE = "MdcLib-Skyprepare/MdcLib-Skyprepare-Info.plist";
+				GCC_PREFIX_HEADER = "MdcLib-Skyprepare/MdcLibSkyprepare-Prefix.pch";
+				INFOPLIST_FILE = "MdcLib-Skyprepare/MdcLibSkyprepare-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcc.mdclib.test.ios.v2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -540,10 +552,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MdcLib-Skyprepare/MdcLib-Skyprepare-Prefix.pch";
-				INFOPLIST_FILE = "MdcLib-Skyprepare/MdcLib-Skyprepare-Info.plist";
+				GCC_PREFIX_HEADER = "MdcLib-Skyprepare/MdcLibSkyprepare-Prefix.pch";
+				INFOPLIST_FILE = "MdcLib-Skyprepare/MdcLibSkyprepare-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcc.mdclib.test.ios.v2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -568,7 +580,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MdcLib-Skyprepare_Example.app/MdcLib-Skyprepare_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MdcLibSkyprepare_Example.app/MdcLibSkyprepare_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -588,7 +600,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MdcLib-Skyprepare_Example.app/MdcLib-Skyprepare_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MdcLibSkyprepare_Example.app/MdcLibSkyprepare_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -596,7 +608,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "MdcLib-Skyprepare" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "MdcLibSkyprepare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
@@ -605,7 +617,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "MdcLib-Skyprepare_Example" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "MdcLibSkyprepare_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
@@ -614,7 +626,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "MdcLib-Skyprepare_Tests" */ = {
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "MdcLibSkyprepare_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,

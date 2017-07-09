@@ -1,42 +1,29 @@
-#
-# Be sure to run `pod lib lint MdcLib-Skyprepare.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = 'MdcLib-Skyprepare'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MdcLib-Skyprepare.'
+s.name             = 'MdcLib-Skyprepare'
+s.version          = '2.0.0'
+s.summary          = 'None'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+s.description      = "The MdcLib iOS SDK, the SDK supports iOS7, iOS 8, iOS 9 and iOS 10"
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.homepage         = 'https://github.com/duplicater/MdcLib-Skyprepare.git'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'lecuong' => 'cuongleviet@vccorp.vn' }
+s.source           = { :git => 'https://github.com/duplicater/MdcLib-Skyprepare.git', :tag => s.version.to_s }
 
-  s.homepage         = 'https://github.com/lecuong.bka@gmail.com/MdcLib-Skyprepare'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lecuong.bka@gmail.com' => 'cuongl@gmail.com' }
-  s.source           = { :git => 'https://github.com/lecuong.bka@gmail.com/MdcLib-Skyprepare.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+s.frameworks = 'UIKit', 'MapKit', 'Foundation', 'SystemConfiguration', 'CoreTelephony', 'Accelerate', 'CoreGraphics', 'QuartzCore'
+s.libraries = 'icucore'
+s.dependency 'SDWebImage', '~>3.8'
+s.dependency 'UIImageView-Letters'
+s.dependency 'CCBottomRefreshControl', '~>0.5.1'
 
-  s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '7.0'
 
-  s.source_files = 'MdcLib-Skyprepare/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'MdcLib-Skyprepare' => ['MdcLib-Skyprepare/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.requires_arc        = true
+s.source              = { :http => "https://github.com/duplicater/MdcLib-Skyprepare/releases/download/#{s.version}/MdcLib.zip" }
+s.platform            = :ios, '7.0'
+s.preserve_paths      = 'MdcLib.framework'
+s.public_header_files = 'MdcLib.framework/Versions/A/Headers/*'
+s.source_files        = 'MdcLib.framework/Versions/A/Headers/*'
+s.resource    = 'MdcLib.Bundle'
+s.vendored_frameworks = 'MdcLib.framework'
 end

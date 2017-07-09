@@ -7,11 +7,11 @@
 //
 
 @import UIKit;
-#import "MdcLib-SkyprepareAppDelegate.h"
+#import "MdcLibSkyprepareAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([MdcLib-SkyprepareAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([MdcLibSkyprepareAppDelegate class]));
     }
 }
