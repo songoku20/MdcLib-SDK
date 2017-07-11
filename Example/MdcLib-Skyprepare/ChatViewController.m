@@ -22,7 +22,6 @@
 @property (weak, nonatomic) IBOutlet UITextView *messageView;
 
 @property (nonatomic, strong) NSMutableArray *dataMesg;
-- (IBAction)leaveRoom:(id)sender;
 
 @end
 
@@ -103,15 +102,13 @@
 
 #pragma mark- delegate
 
-- (void)onSystemChatMesg:(NSDictionary*)mesg{
+- (void)onCommentMesg:(NSDictionary *)mesg{
     // khi chưa listen room, tin nhắn của người lạ sẽ trả về qua delegate này.
     // data trả về sẽ đầy dủ thông tin của room, có thế listten room này để tiếp tục nhận tin nhắn qua block của
     // listen room chứ ko phải ở đây nữa.
-    
-    
-    
     NSLog(@"recive mesg system%@", mesg);
     self.messageView.text = [NSString stringWithFormat:@"%@\n",mesg ];
+
 }
 
 - (void)onConnected{
