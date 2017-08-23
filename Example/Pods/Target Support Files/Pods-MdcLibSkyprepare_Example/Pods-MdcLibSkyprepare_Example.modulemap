@@ -1,0 +1,6 @@
+framework module Pods_MdcLibSkyprepare_Example {
+  umbrella header "Pods-MdcLibSkyprepare_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
