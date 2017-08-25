@@ -1,6 +1,6 @@
 {
   "name": "MdcLib-Skyprepare",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "summary": "None",
   "description": "The MdcLib iOS SDK, the SDK supports iOS7, iOS 8, iOS 9 and iOS 10",
   "homepage": "https://github.com/duplicater/MdcLib-Skyprepare.git",
@@ -12,7 +12,7 @@
     "lecuong": "cuongleviet@vccorp.vn"
   },
   "source": {
-    "http": "https://github.com/duplicater/MdcLib-Skyprepare/releases/download/2.0.5/MdcLib.zip"
+    "http": "https://github.com/duplicater/MdcLib-Skyprepare/releases/download/2.0.6/MdcLib.zip"
   },
   "frameworks": [
     "UIKit",

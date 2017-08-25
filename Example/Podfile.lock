@@ -1,6 +1,6 @@
 PODS:
   - CCBottomRefreshControl (0.5.2)
-  - MdcLib-Skyprepare (2.0.5):
+  - MdcLib-Skyprepare (2.0.6):
     - CCBottomRefreshControl (~> 0.5.1)
     - SDWebImage (~> 3.8)
     - UIImageView-Letters
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   CCBottomRefreshControl: 389780b4488321c91d18f66a6da5ef9606df6de5
-  MdcLib-Skyprepare: 1a1eaf5354a8b6326962f982a856f53fd9028d52
+  MdcLib-Skyprepare: d169a233656bbcc092d0c428609b1699a8f8e1d5
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   UIImageView-Letters: f62db28076797adf3560ab7410647dc6899b9eef
 
