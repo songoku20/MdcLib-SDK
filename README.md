@@ -5,11 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/MdcLib-Skyprepare.svg?style=flat)](http://cocoapods.org/pods/MdcLib-Skyprepare)
 [![Platform](https://img.shields.io/cocoapods/p/MdcLib-Skyprepare.svg?style=flat)](http://cocoapods.org/pods/MdcLib-Skyprepare)
 
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+MdcLib-Skyprepare was build with xcode 9. if you using xcode < 9, you need import Fileprovide.framework into your project or update xcode 9.
 
 ## Installation
 

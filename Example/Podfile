@@ -3,9 +3,4 @@ use_frameworks!
 target 'MdcLibSkyprepare_Example' do
   pod 'MdcLib-Skyprepare', :path => '../'
 
-  target 'MdcLibSkyprepare_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
