@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name             = 'MdcLib-Skyprepare'
+s.name             = 'MdcLib-SDK'
 s.version          = '2.0.10'
 s.summary          = 'None'
 
